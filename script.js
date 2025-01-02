@@ -172,7 +172,5 @@ function restartGame() {
   endgameModal.classList.remove('active')
   overlay.classList.remove('active')
 }
-document.addEventListener("DOMContentLoaded", function() {
-    const rockButton = document.getElementById('rock');
-    const paperButton = document.getElement
+
 
