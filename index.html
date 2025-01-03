@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdn.jsdelivr.net/npm/devicon@2.14.0/devicon.min.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="favicon.ico" />
     <script
       src="https://kit.fontawesome.com/4c536a6bd5.js"
@@ -19,22 +21,23 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="title">ROCK !PAPER! SCISSORS! </h1>
+      <h1 class="title">ROCK! PAPER! SCISSORS! </h1>
     </header>
     <main class="main">
       <div class="scoreboard">
-        <h2 class="score-info" id="scoreInfo">Choose your weapon</h2>
+        <h2 class="score-info" id="scoreInfo">Choose your move</h2>
         <h3 class="score-message" id="scoreMessage">
           First to score 5 points wins the game
         </h3>
         <div class="scores-container">
           <div class="score-box">
             <div class="sign" id="playerSign"> ❔ </div>
-            <p class="score" id="playerScore">Player: 0</p>
+            <p class="score" id="playerScore"><i class="fa fa-user"></i>
+              Player: 0</p>
           </div>
           <div class="score-box">
             <div class="sign" id="computerSign"> ❔ </div>
-            <p class="score" id="computerScore">Computer: 0</p>
+            <p class="score" id="computerScore"><i class="fa fa-laptop"></i> Computer: 0</p>
           </div>
         </div>
       </div>
@@ -65,7 +68,7 @@
     <div class="modal" id="endgameModal">
       <p class="modal-title" id="endgameMsg"></p>
       <button id="restartBtn">
-       P L A Y         A G A I N
+       P L A Y  
       <div id="clip">
         <div id="leftTop" class="corner"></div>
         <div id="rightBottom" class="corner"></div>
@@ -80,3 +83,4 @@
     <script src="script.js"></script>
   </body>
 </html>
+
